@@ -1,0 +1,81 @@
+body {
+  background: #ada9a8;
+}
+
+li {	
+  display: inline-block;	
+}	
+li {	
+  width: 24%;	
+  font-size: 20px	
+}	
+li a {	
+  display: block;	
+  color: black;	
+  text-align: center;	
+  text-decoration: none;	
+ 	
+}	
+ul {	
+  margin: 0px;	
+  padding: 0px;	
+  overflow: hidden;	
+  background-color: white;	
+}
+
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 35px;
+  color: black;
+}
+.contact{
+  display: block;
+   margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p {
+  text-align: center;
+  font-style: italic;
+  font-size: 27px;
+  color: white;
+}
+.lable {
+  color: black;
+  font-size: 25px;
+}
+.nav {
+  margin: 0 auto;
+}
+.footer {
+  text-align: center;
+  height: 120px;
+  padding: 10px;
+  background-color: #333;
+  padding: 10px;
+}
+.logos {
+  height: 40px;
+  padding-left: 5px;
+}
+
+
+	
+@media screen and (max-width:1000px) {	
+  li {	
+    width: 10%;
+    display: inline;	
+  } 	
+  
+  li a {
+    padding: 10px 0; 
+  }
+}
+  
+
+  

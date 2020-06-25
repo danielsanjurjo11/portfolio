@@ -1,0 +1,77 @@
+body {
+  background: #ada9a8;
+}
+
+nav li {
+  display: inline-block;
+}
+nav li {
+  width: 24%;
+  font-size: 20px;
+}
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+.maintitle {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.section {
+  padding: 48px 24px;
+}
+
+.section-half {
+  width: 80%;
+  margin: 0 10%;
+}
+.section-half img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  height: 120px;
+  padding: 10px;
+  background-color: #333;
+  padding: 10px;
+}
+.logos {
+  height: 40px;
+  padding-left: 5px;
+}
+
+.info {
+  font-size: 25px;
+  color: black;
+}
+.copyright {
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  li {
+    width: 10%;
+    display: inline;
+  }
+
+  li a {
+    padding: 10px 0;
+  }
+}
