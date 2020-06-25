@@ -1,0 +1,194 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utility class */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+     color: rgb(0, 153, 255);;
+}
+
+
+.lead {
+    font-size: 25px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.3em;
+}
+
+.btn:hover {
+    background: rgb(0, 153, 255);
+    color: #333;
+    border-radius: 1.3em;
+}
+
+.btn-light {
+    background:#fff;
+    color: #fff;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-primary {
+    background: rgb(0, 153, 255);
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Main styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, verdana, sans-serif;
+    line-height: 1.7em;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#navbar {
+    background: #333;
+    color: rgb(0, 153, 255);
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 153, 255);
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: rgb(0, 153, 255);
+    color: #fff;
+    border-radius: 1.3em;
+}
+
+/* reach */
+
+#reach {
+    background: rgb(109, 106, 106);
+    padding-bottom: 15px;
+}
+
+#reach h1 {
+    padding-left: 180px;
+    padding-top: 25px;
+    font-size: 40px;
+}
+#reach p {
+    padding-left: 180px;
+    padding-top: 15px;
+    font-size: 35px;
+}
+#reach .form {
+    padding-left: 180px;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+}
+.form-content{
+    display: block;
+    font-size: 20px;
+}
+.message {
+    display: block;
+    height: 150px;
+}
+
+
+#reach input[type=text], select, textarea{
+    width: 75%;
+  padding: 15px;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  margin-bottom: 52px;
+  resize: vertical;
+}
+
+#reach input[type=submit] {
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+
+
+/* features */
+
+#features{
+    display: flex;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 325px;
+}
+
+/* features  */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
